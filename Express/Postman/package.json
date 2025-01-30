@@ -1,0 +1,15 @@
+{
+  "name": "postman-npm",
+  "version": "1.0.0",
+  "description": "using postman and other http requests",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vivek Akheniya",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

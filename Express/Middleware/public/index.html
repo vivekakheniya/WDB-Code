@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Middleware</title>
+  </head>
+  <body>
+    <h1 class="heaDing">Inputs</h1>
+    <form action="/submit" method="post">
+      <label for="streen">Name: </label>
+      <input
+        type="text"
+        id="street"
+        name="streen"
+        placeholder="Street Name"
+        required
+      />
+      <!-- The name attribute and input signs for the key value pair which would be sent to the back end and the name attribute with account for the key and I guess the input that user will provide will account forthe value in that key value pair -->
+      <label for="petname">Pet Name: </label>
+      <input type="text" id="pet" name="petname" title="Pet Name" required />
+
+      <input type="submit" value="submit" />
+    </form>
+  </body>
+</html>
